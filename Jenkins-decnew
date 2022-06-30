@@ -8,7 +8,7 @@ pipeline{
            
             }
         }
-        stage("Maven Build"){
+        stage("Mvn Build"){
             steps{
                 sh "mvn clean package"
                 sh "mv target/*.war target/myweb.war"
