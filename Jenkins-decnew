@@ -24,7 +24,8 @@ pipeline{
                     
                     ssh ec2-user@54.211.81.112/home/ec2-user/apache-tomcat-8.5.81/bin/startup.sh
                 
-               } """
+                   """
+                }
             }
         }
     }
